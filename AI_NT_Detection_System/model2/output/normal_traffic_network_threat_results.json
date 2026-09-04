@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "engine": "Model 2 - Network Threat Detection",
+  "source_file": "normal_traffic_network.json",
+  "processed_at": "2026-09-04T05:21:08.277532+00:00",
+  "flow_count": 1,
+  "threat_summary": {
+    "BOTNET_C2": 1
+  },
+  "results": [
+    {
+      "timestamp": "2026-08-05T10:13:20+00:00",
+      "flow_id": "F-000001",
+      "network": {
+        "src_ip": "192.168.1.50",
+        "src_port": 53535,
+        "dst_ip": "8.8.8.8",
+        "dst_port": 53,
+        "protocol": "17"
+      },
+      "threat_class": "BOTNET_C2",
+      "confidence": 0.3829,
+      "risk_score": 52.72,
+      "severity": "MEDIUM",
+      "evidence_features": {
+        "total_packets": 2.0,
+        "forward_packets": 1.0,
+        "backward_packets": 1.0,
+        "forward_bytes": 71.0,
+        "backward_bytes": 71.0,
+        "packets_per_second": 2.0,
+        "bytes_per_second": 142.0,
+        "forward_packet_mean": 71.0,
+        "backward_packet_mean": 71.0,
+        "packet_min": 71.0,
+        "packet_max": 71.0,
+        "packet_mean": 71.0,
+        "dns_query_count": 2.0,
+        "dns_unique_domains": 1.0,
+        "dns_avg_query_length": 11.0,
+        "dns_max_query_length": 11.0,
+        "dns_entropy": 3.095795255000934,
+        "unique_destination_ips": 2.0,
+        "unique_destination_ports": 2.0,
+        "connection_rate": 1000.0,
+        "fb_packet_ratio": 1.0,
+        "fb_byte_ratio": 1.0
+      }
+    }
+  ]
+}

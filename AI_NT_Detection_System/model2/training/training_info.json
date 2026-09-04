@@ -1,0 +1,14 @@
+{
+  "type": "synthetic demonstration",
+  "samples": 12600,
+  "classes": [
+    "NORMAL_TRAFFIC",
+    "DDOS",
+    "BOTNET_C2",
+    "DNS_TUNNELING",
+    "ENCRYPTED_MALWARE",
+    "RECON_SCAN",
+    "DATA_EXFILTRATION"
+  ],
+  "feature_count": 28
+}
