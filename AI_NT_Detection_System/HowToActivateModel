@@ -1,0 +1,11 @@
+Scripts for Activating AI Model:
+(Make sure all the scripts are run in windows terminal only)
+>>Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+>>.\\venv\\Scripts\\Activate.ps1
+
+
+>>python run\_pipeline.py "C:\\Users\\DELL\\Documents\\SIH\_2026\_JSON\_Model2\_Integrated\_v2\\SIH\_2026\_JSON\_Network\_Threat\_System\\normal\_traffic.pcap"
+
+
+Next is to run the run_now.py to Refine the Json file created by Model2 in output folder
