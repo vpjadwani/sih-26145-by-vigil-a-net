@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "engine": "Model 1 - Network JSON Engine",
+  "source_file": "normal_traffic.pcap",
+  "flow_count": 1,
+  "flows": [
+    {
+      "flow_id": "F-000001",
+      "timestamp": "2026-08-05T10:13:20+00:00",
+      "network": {
+        "src_ip": "192.168.1.50",
+        "src_port": 53535,
+        "dst_ip": "8.8.8.8",
+        "dst_port": 53,
+        "protocol": "17"
+      },
+      "traffic": {
+        "duration": 0.0,
+        "total_packets": 2,
+        "forward_packets": 1,
+        "backward_packets": 1,
+        "forward_bytes": 71,
+        "backward_bytes": 71,
+        "total_bytes": 142,
+        "packets_per_second": 2.0,
+        "bytes_per_second": 142.0,
+        "forward_packet_mean": 71.0,
+        "backward_packet_mean": 71.0
+      },
+      "packet_statistics": {
+        "min_size": 71,
+        "max_size": 71,
+        "mean_size": 71.0,
+        "std_size": 0.0,
+        "mean_iat": 0.0
+      },
+      "tcp": {},
+      "dns": {
+        "query_count": 2,
+        "unique_domains": 1,
+        "average_query_length": 11.0,
+        "maximum_query_length": 11,
+        "domain_entropy": 3.095795255000934
+      },
+      "behavior": {
+        "unique_destination_ips": 2,
+        "unique_destination_ports": 2,
+        "connection_rate": 1000.0,
+        "forward_backward_packet_ratio": 1.0,
+        "forward_backward_byte_ratio": 1.0
+      }
+    }
+  ]
+}
