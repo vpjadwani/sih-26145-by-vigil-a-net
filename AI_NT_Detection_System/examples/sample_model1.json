@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "source_file": "sample",
+  "flow_count": 1,
+  "flows": [
+    {
+      "flow_id": "F-000001",
+      "timestamp": "2026-09-04T12:30:21.125Z",
+      "network": {
+        "src_ip": "192.168.1.10",
+        "src_port": 49152,
+        "dst_ip": "8.8.8.8",
+        "dst_port": 53,
+        "protocol": "UDP"
+      },
+      "traffic": {
+        "duration": 2.31,
+        "total_packets": 81,
+        "forward_packets": 42,
+        "backward_packets": 39,
+        "forward_bytes": 2810,
+        "backward_bytes": 4210,
+        "total_bytes": 7020,
+        "packets_per_second": 35.06,
+        "bytes_per_second": 3038.96,
+        "forward_packet_mean": 66.9,
+        "backward_packet_mean": 107.9
+      },
+      "packet_statistics": {
+        "min_size": 42,
+        "max_size": 512,
+        "mean_size": 86.67,
+        "std_size": 31.24,
+        "mean_iat": 0.028
+      },
+      "tcp": {
+        "syn": 0,
+        "ack": 0,
+        "fin": 0,
+        "rst": 0,
+        "psh": 0,
+        "urg": 0
+      },
+      "dns": {
+        "query_count": 12,
+        "unique_domains": 8,
+        "average_query_length": 38,
+        "maximum_query_length": 61,
+        "domain_entropy": 4.82
+      },
+      "behavior": {
+        "unique_destination_ips": 1,
+        "unique_destination_ports": 1,
+        "connection_rate": 0.43,
+        "forward_backward_packet_ratio": 1.08,
+        "forward_backward_byte_ratio": 0.67
+      }
+    }
+  ]
+}
