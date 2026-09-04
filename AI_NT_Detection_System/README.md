@@ -28,3 +28,5 @@ model2\output\<name>_network_threat_results.json
 IMPORTANT: the included Model 2 is a demonstration classifier trained on synthetic feature distributions. It is not production security accuracy. For SIH evaluation, retrain it with real labeled network data converted to the exact same JSON schema.
 
 The system is passive/read-only: it analyzes supplied/captured traffic and emits alerts; it does not probe endpoints, initiate sessions, send mitigation commands, or write back to production.
+
+Author : Yuvraj Oza
